@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { NgComponentsNpickardComponent } from './ng-components-npickard.component';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { HackerStatusComponent } from "./hacker-status/hacker-status.component";
 
 @NgModule({
-  imports: [
-  ],
-  declarations: [NgComponentsNpickardComponent],
-  exports: [NgComponentsNpickardComponent]
+  imports: [CommonModule],
+  declarations: [HackerStatusComponent],
+  exports: [HackerStatusComponent]
 })
-export class NgComponentsNpickardModule { }
+export class NgComponentsNpickardModule {}
